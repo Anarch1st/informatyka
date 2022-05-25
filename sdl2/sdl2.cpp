@@ -70,7 +70,7 @@ void Triangle::Draw() {
         SDL_RenderDrawLine(renderer, m_x + (m_width / 2), m_y - m_height + i, m_x + i, m_y - i);
     }
 }
-//
+
 int main(int argc, char** argv)
 {
     bool leftMouseButtonDown = false;
